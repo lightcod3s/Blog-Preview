@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./my%20design/Screenshot%202024-01-04%20at%2007-43-29%20Frontend%20Mentor%20Blog%20preview%20card.png)
+![](./my-design/Screenshot%202024-01-04%20at%2007-43-29%20Frontend%20Mentor%20Blog%20preview%20card.png)
 
 
 ### Links
