@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+:root {
+    /* Primary colors */
+    --Yellow: hsl(47, 88%, 63%);
+    /* Neutral */
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%)
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Yellow);
+}
+
+.main_container {
+    /* width: calc(100vw - 40%); */
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    align-items: flex-start;
+    gap: 1rem;
+    border-radius: 1.2rem;
+    border: 1px solid var(--Black);
+    background-color: var(--White);
+    box-shadow: 8px 8px 0px 0px rgba(0,0,0,1);
+}
+
+.image {
+    width: 16rem;
+    position: relative;
+    align-self: center;
+    border-radius: 0.4rem;
+}
+
+/* For the first head text */
+.heading-text {
+    background-color: var(--Yellow);
+    width: 4.4rem;
+    height: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.2rem;
+}
+.text1 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    font-family: 'Figtree', sans-serif;
+    font-size: 12px;
+    color: var(--Black);
+    font-weight: 800;
+}
+
+/* For the Published date */
+.published-date {
+    font-size: 12px;
+    font-family: 'Figtree', sans-serif;
+    color: var(--Grey);
+}
+
+/* For the main-titlte */
+.main-title {
+    color: var(--Black);
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Figtree', sans-serif;
+    cursor: pointer;
+    transition-delay: 0ms;
+}
+.main-title:hover {
+    color: var(--Yellow);
+}
+
+/* For the body-text */
+.body-text {
+    font-size: 12px;
+    font-family: 'Figtree', sans-serif;
+    /* font-weight: 600; */
+    color: var(--Grey);
+}
+
+
+/* for the user's image */
+.user-image {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+.user {
+    width: 29px;
+    height: 29px;
+}
+.name {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    position: relative;
+    top: 4rem;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
